@@ -1,6 +1,5 @@
 import sqlite3
 
-# from Uroki.db import users
 
 connection = sqlite3.connect('not_telegram.db')
 cursor = connection.cursor()
